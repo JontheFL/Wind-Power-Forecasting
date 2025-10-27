@@ -1,0 +1,12 @@
+# To load this environment, use the command:
+# conda env create -f environment.yml
+
+name: wind-power
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - seaborn
+  - matplotlib
+prefix: /home/jonasstreuff/miniconda3/envs/wind-power
